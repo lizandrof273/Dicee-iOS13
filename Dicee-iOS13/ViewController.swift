@@ -22,11 +22,12 @@ class ViewController: UIViewController {
         // Who    what       value
         diceImageView1.image = UIImage(named: "DiceSix")
         
-        diceImageView1.alpha = 0.6
-        
         diceImageView2.image = UIImage(named: "DiceTwo")
     }
 
 
+    @IBAction func rollButtonPressed(_ sender: UIButton) {
+        print("button tapped")
+    }
 }
 
