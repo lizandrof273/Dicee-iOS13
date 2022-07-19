@@ -25,9 +25,12 @@ class ViewController: UIViewController {
         diceImageView2.image = UIImage(named: "DiceTwo")
     }
 
-
+    //IBAction allows for  buttons actions and things that are not asthetic
     @IBAction func rollButtonPressed(_ sender: UIButton) {
         print("button tapped")
+        diceImageView1.image = UIImage(named: "DiceFour")
+        
+        diceImageView2.image = UIImage(named: "DiceFour")
     }
 }
 
