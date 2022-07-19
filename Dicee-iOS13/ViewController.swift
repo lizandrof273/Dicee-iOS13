@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // IBOutlet allows to refrence UI element
     @IBOutlet weak var diceImageView1: UIImageView!
     
     @IBOutlet weak var diceImageView2: UIImageView!
@@ -16,6 +18,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        // Who    what       value
         diceImageView1.image = UIImage(named: "DiceSix")
         
         diceImageView1.alpha = 0.6
