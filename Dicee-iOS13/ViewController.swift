@@ -22,15 +22,13 @@ class ViewController: UIViewController {
         // Who    what       value
         diceImageView1.image = UIImage(named: "DiceSix")
         
-        diceImageView2.image = UIImage(named: "DiceTwo")
+        diceImageView2.image = UIImage(named: "DiceOne")
     }
 
     //IBAction allows for  buttons actions and things that are not asthetic
     @IBAction func rollButtonPressed(_ sender: UIButton) {
-        print("button tapped")
-        diceImageView1.image = UIImage(named: "DiceFour")
-        
-        diceImageView2.image = UIImage(named: "DiceFour")
+        diceImageView1.image = [UIImage(named: "DiceOne"), UIImage(named: "DiceTwo"), UIImage(named: "DiceThree"),  UIImage(named: "DiceFour"), UIImage(named: "DiceFive"),  UIImage(named: "DiceSix")
+        ][1]
     }
 }
 
