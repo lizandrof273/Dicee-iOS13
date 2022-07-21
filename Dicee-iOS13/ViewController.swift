@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var diceImageView2: UIImageView!
 
-    var diceArray = [UIImage(named: "DiceOne"), UIImage(named: "DiceTwo"), UIImage(named: "DiceThree"),  UIImage(named: "DiceFour"), UIImage(named: "DiceFive"),  UIImage(named: "DiceSix")
+    let diceArray = [UIImage(named: "DiceOne"), UIImage(named: "DiceTwo"), UIImage(named: "DiceThree"),  UIImage(named: "DiceFour"), UIImage(named: "DiceFive"),  UIImage(named: "DiceSix")
     ]
     //IBAction allows for  buttons actions and things that are not asthetic
     @IBAction func rollButtonPressed(_ sender: UIButton) {
